@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
 body {
   font-family: "Raleway", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
@@ -39,12 +39,12 @@ body, .unslate_co--site-inner {
 
 ::-moz-selection {
   background: #000;
-  color: #000;
+  color: #fff;
 }
 
 ::selection {
   background: #000;
-  color: #000;
+  color: #fff;
 }
 
 a {
@@ -74,7 +74,7 @@ a, a:hover {
   position: fixed !important;
   width: 100%;
   background-color: #191919;
-  color: #000;
+  color: #fff;
   left: 0;
   right: 0;
   bottom: 0px;
@@ -108,7 +108,7 @@ a, a:hover {
 }
 
 .btn.btn-outline-pill.btn-custom-light {
-  color: #000;
+  color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.5);
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -120,7 +120,7 @@ a, a:hover {
 }
 
 .btn.btn-bg-white--hover:hover {
-  background-color: #000;
+  background-color: #fff;
   color: #000;
 }
 
@@ -182,7 +182,7 @@ a, a:hover {
 
 .unslate_co--site-nav .unslate_co--site-logo {
   font-size: 1.7rem;
-  color: #000;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -219,7 +219,7 @@ a, a:hover {
   content: "";
   position: absolute;
   height: 1px;
-  background: #000;
+  background: #fff;
   bottom: 0;
   width: 0%;
   -webkit-transition: .2s width ease-in-out;
@@ -372,7 +372,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav .site-nav-ul > li.active > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li.active > a:before {
-  color: #000;
+  color: #fff;
   width: calc(100% - 40px);
 }
 
@@ -726,7 +726,7 @@ a, a:hover {
   right: 0;
   bottom: 0;
   content: "";
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .cover-v1.overlay .mbYTP_wrapper {
@@ -746,7 +746,7 @@ a, a:hover {
 .cover-v1 .heading {
   font-size: 5rem;
   font-weight: 900;
-  color: #000;
+  color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -757,7 +757,7 @@ a, a:hover {
 
 .cover-v1 .blog-heading {
   font-weight: 900;
-  color: #000;
+  color: #fff;
   font-size: 4rem;
 }
 
@@ -980,7 +980,7 @@ a, a:hover {
 }
 
 .portfolio-item .overlay:before, .blog-item .overlay:before {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   content: "";
 }
 
